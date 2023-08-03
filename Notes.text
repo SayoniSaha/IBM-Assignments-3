@@ -10,9 +10,9 @@ Angular Commands:
 npm install --location=global @angular/cli
 ng version
 ng new <your-project-name>
-ng new my-first-angular-project
+ex-- ng new my-first-angular-project
 cd <your-project-name>
-cd my-first-angular-project
+ex-- cd my-first-angular-project
 ng serve
 
 *******************************************
