@@ -16,10 +16,16 @@ ex-- cd my-first-angular-project
 ng serve
 
 others--
+new component:
 ng generate component <component-name>
 ex-- ng generate component sales-person-list
 
+new class:
 ng generate class <component-name>/<class-name>
 ex-- ng generate class sales-person-list/SalesPerson
+
+new service layer:
+ng generate service <service-name>
+ex-- ng generate service employee
 
 *******************************************
