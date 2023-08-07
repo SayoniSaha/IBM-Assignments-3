@@ -1,0 +1,16 @@
+<h2> Department List</h2>
+<table class="table table-striped mt-4">
+    <caption><small>All Rights Reserved 2023</small></caption>
+    <thead class="thead-dark">
+        <tr class="text-center">
+            <th> Department Name </th>
+            <th> Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let department of list" class="text-center">
+            <td> {{ department.deptName }} </td>
+            <td> {{ department.location }} </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+<h2> Tutorial List</h2>
+<table class = "table table-striped mt-4">
+    <caption><small>All Rights Reserved 2023</small></caption>
+    <thead class="thead-dark">
+        <tr class="text-center">
+            <th> Description</th>
+            <th> Is active? </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let tutorial of tutorials" class="text-center">
+            <td> {{ tutorial.description }} </td>
+            <td> {{ tutorial.isActive }} </td>
+            
+        </tr>
+    </tbody>
+</table>
